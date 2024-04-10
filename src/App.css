@@ -7,9 +7,21 @@
 }
 
 body {
-  background-color: whitesmoke;
+  background-color: rgb(56, 36, 53);
 }
+nav-item {
+  display: flex;
+  justify-content: flex-start;
 
+}
+.nav {
+  background-color: black;
+  text-align: center;
+}
+.nav-link.active {
+  background-color:whitesmoke;
+  font-size: 20px;
+}
 .portfolio-app {
   display: flex;
   flex-direction: column;
